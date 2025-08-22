@@ -1,0 +1,16 @@
+# Smart Ration Bot - Переменные окружения
+# ВНИМАНИЕ: Укажите ваш реальный BOT_TOKEN!
+
+# ====== TELEGRAM BOT ======
+BOT_TOKEN=УКАЖИТЕ_ВАШ_ТОКЕН_ОТ_BOTFATHER
+
+# ====== DATABASE ======
+DB_HOST=postgres
+DB_PORT=5432
+DB_USER=bot_user
+DB_PASSWORD=SmartRation2024!SecureDB#
+DB_NAME=telegram_bot
+
+# ====== РЕЖИМ ======
+DEBUG=false
+TZ=UTC
