@@ -1,0 +1,42 @@
+# Переменные окружения для Smart Ration Bot
+# ВНИМАНИЕ: Укажите ваш реальный BOT_TOKEN ниже!
+
+# ====== TELEGRAM BOT ======
+BOT_TOKEN=УКАЖИТЕ_ВАШ_ТОКЕН_ОТ_BOTFATHER
+
+# ====== DATABASE ======
+DB_HOST=postgres
+DB_PORT=5432
+DB_USER=bot_user
+DB_PASSWORD=SmartRation2024!SecureDB#
+DB_NAME=telegram_bot
+
+# ====== REDIS ======
+REDIS_HOST=redis
+REDIS_PORT=6379
+REDIS_PASSWORD=
+
+# ====== БЕЗОПАСНОСТЬ ======
+SECRET_KEY=pC1b6sD2f8l0YzrxHNf1yD2ZQyYsTHH_J0f3FbPJc0Q
+
+# ====== ЛОГИРОВАНИЕ ======
+LOG_LEVEL=INFO
+LOG_FILE=/app/logs/bot.log
+
+# ====== СЕРВЕР ======
+SERVER_HOST=0.0.0.0
+SERVER_PORT=8000
+
+# ====== ЛОКАЛИЗАЦИЯ ======
+TZ=UTC
+
+# ====== РЕЖИМ ======
+DEBUG=false
+DB_POOL_SIZE=10
+
+# ====== ДОПОЛНИТЕЛЬНАЯ БЕЗОПАСНОСТЬ ======
+# Максимальное время жизни соединения с БД (секунды)
+DB_POOL_RECYCLE=3600
+
+# Таймаут подключения к БД (секунды)  
+DB_CONNECT_TIMEOUT=30
